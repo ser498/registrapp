@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Registrapp
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -13,8 +13,20 @@
     </ion-toolbar>
   </ion-header>
 
+ <ion-content>
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <ion-list>
+      <ion-item>
+        <ion-label>user name</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>password</ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+      <ion-button>Ingresar</ion-button>
+      <br>
+      <a href="registro.page.html">Registrate</a>
+    </ion-list>
   </div>
 </ion-content>
