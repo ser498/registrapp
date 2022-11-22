@@ -24,9 +24,11 @@
         <ion-label>password</ion-label>
         <ion-input type="password"></ion-input>
       </ion-item>
-      <ion-button>Ingresar</ion-button>
+      <ion-button (click)="onClick()">Ingresar</ion-button>
       <br>
-      <a href="registro.page.html">Registrate</a>
+      <ion-text color="primary" routerLink = "/registro">
+        <p color="primary">registrar</p>
+      </ion-text>
     </ion-list>
   </div>
 </ion-content>
